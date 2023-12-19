@@ -42,7 +42,6 @@ body * {
   padding: 0 24px;
 }
 
-/* profile */
 #profile {
   text-align: center;
   padding: 24px;
@@ -59,12 +58,14 @@ body * {
   margin-top: 8px;
 }
 
-/* toogle */
+#information {
+  text-align: center;
+}
+
 #switch {
   position: relative;
   width: 64px;
-  margin: 4px auto;
-  margin-bottom: 28px;
+  margin: 28px auto 28px auto;
 }
 
 #switch button {
@@ -100,7 +101,6 @@ body * {
   border-radius: 9999px;
 }
 
-/* links */
 ul {
   list-style: none;
   display: flex;
@@ -139,7 +139,6 @@ footer {
   font-size: 14px;
 }
 
-/* media queries */
 @media (min-width: 700px) {
   :root {
     --bg-url: url("./assets/bg-desktop.jpg");
@@ -150,7 +149,6 @@ footer {
   }
 }
 
-/* animation */
 @keyframes slide-in {
   from {
     left: 0;
